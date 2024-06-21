@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="estils.css">
+</head>
+<body>
+    <!-- Javascript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const checkbox = document.querySelector('label input[type="checkbox"]');
+            const links = document.querySelectorAll('label ul a');
+    
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    checkbox.checked = false;
+                });
+            });
+        });
+    </script>
+
+    <!-- Menu -->
+    <nav>
+        <ul>
+            <li><a href="#">ABOUT ME</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#wrappers">PROJECTS</a></li>
+            <li><a href="#contacte">CONTACT</a></li>
+        </ul>
+    </nav>
+ 
+
+    <!-- Menu hamburguesa -->
+    <label>
+        <input type="checkbox">
+        <span class="menu"> 
+            <span class="hamburger">
+            </span> 
+        </span>
+
+        <ul>
+            <a href="#">
+                <li>ABOUT ME</li>
+            </a>
+            <a href="#education">
+                <li>EDUCATION</li>
+            </a>
+            <a href="#wrappers">
+                <li>PROJECTS</li>
+            </a>
+            <a href="#contacte">
+                <li>CONTACT</li>
+            </a>
+        </ul>
+    </label>
+
+    <!-- Heading Bienvenidas -->
+    <header>
+        
+        <div class="hero">
+            <h1>Welcome to my Portfolio</h1>
+            <p>Discover my work and experience</p>
+            
+        </div>
+        <canvas id="canvas"></canvas>
+
+        <h2>Saprit Kaur</h2>
+        <p>Hello! I am Saprit Kaur, Creative and passionate graphic designer in creating impactful visual identities and innovative graphic solutions. My approach combines creativity with functionality, ensuring that each design is not only aesthetically pleasing, but also effective in meeting the client's objectives. With strong competency in Adobe Creative Suite and user-centric approach, I look to collaborate on challenging projects that require a mix of creativity and strategy.</p>
+
+         <!--  
+        <a href="#" class="animated-button">Click Me</a>
+        -->
+  
+    </header>
+
+   
+   
+   
+
+    <!-- Formación -->
+    <div id="formacion">
+  
+        <section id="education">
+            <h2>Education</h2>
+        </section>
+        <div class="education "> 
+            <h2>
+                Intermediate degree in digital prepress 
+                <br>
+                2020-2022  
+            </h2>
+            <p>
+                IFP Antoni Algueró
+                    <br>
+                Sant Just Deserven
+            </p>
+       
+   
+            <h2>
+                Higher degree Design and Editing of Printed and Multimedia Publications
+                <br>2022-2024
+            </h2>
+            <p>
+                IFP Antoni Algueró
+                    <br>
+                Sant Just Deserven
+            </p>
+        
+
+    </div>
+</div>
+
+
+    
+    <!-- Experiencia  -->
+    <div id="laboral">
+  
+        <section id="experiencia">
+            <h2>Experience</h2>
+        </section>
+        <div class="experiencia"> 
+            <h2>
+                    Pirétols
+                <br>
+                    2022
+                <br>
+                    Cornellá de llobregat  
+            </h2>
+            <li>Visual Identities: Developed complete visual identities for small and medium-sized businesses, including logos, business cards, stationery and promotional material.</li>
+            <li>Promotional Materials: I designed flyers, posters, banners for events and promotions.</li>
+            <li>Photographic Editing and Retouching: I carried out photographic editing and retouching for catalogs and publications, improving the visual quality of the images and ensuring their coherence with the brand identity.</li>
+            <li>Collaboration with Clients: I worked directly with clients to understand their needs and objectives, translating them into effective visual solutions.</li>
+            <li>Content Creation for Social Media: I produced engaging visual content for social media platforms such as Instagram.</li>
+            
+                <br>
+       
+            <h2>
+                Ayuntamiento de Sants Vicenç dels Horts
+                    <br>
+                nov 2023 - may 2024
+                    <br>
+                    Sants Vicenç dels Horts 
+            </h2>
+            <p>
+                I designed flyers, diptychs, triptychs, promotional posters for various municipal events and public service programs.
+            </p>
+        
+
+    </div>
+</div>
+
+
+
+    <!-- Proyectos -->
+   
+
+
+    <div id="wrappers">
+
+        <section class="projects">
+            <h2>My Projects</h2>
+        </section>
+       
+        <div class="cards">
+            <img src="img/rollup.jpg" alt="">
+            <div class="info">
+                <h1>Rollup</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/acreditacio.jpg" alt="">
+            <div class="info">
+                <h1>Accreditation</h1>
+                <p></p>
+               
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/invitacio.jpg" alt="">
+            <div class="info">
+                <h1>Invitation</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/diptic.jpg" alt="">
+            <div class="info">
+                <h1>Diptych</h1>
+                 <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/Pic_7.jpg" alt="">
+            <div class="info">
+                <h1>Layout</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/Pic_24.jpg" alt="">
+            <div class="info">
+                <h1>Layout</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/Pic_30.jpg" alt="">
+            <div class="info">
+                <h1>Layout</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/web.png" alt="">
+            <div class="info">
+                <h1>Web</h1>
+                <p></p>
+              
+                <a href="mp08_UF1_01_inici_kaurs/mp08_UF1_01_kaurs.html" target="_blank" class="btn">Click</a>
+                
+            </div>
+        </div>    
+ 
+        <div class="cards">
+            <img src="img/eventify_1.jpg" alt="">
+            <div class="info">
+                <h1>App</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/ilustracion.jpg" alt="">
+            <div class="info">
+                <h1>Illustration</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/portada.jpg" alt="">
+            <div class="info">
+                <h1>Book cover</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/flyer_fenix.jpg" alt="">
+            <div class="info">
+                <h1>Flyer</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/punt_libro.jpg" alt="">
+            <div class="info">
+                <h1>Bookmark</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/tarjeta_aleyois.jpg" alt="">
+            <div class="info">
+                <h1>Business card</h1>
+                <p></p>
+               
+            </div>
+        </div>
+ 
+        <div class="cards">
+            <img src="img/tarjeta_pinturas.jpg" alt="">
+            <div class="info">
+                <h1>Business card</h1>
+                <p></p>
+                
+            </div>
+        </div>
+ 
+        <div class="cards">
+            <img src="img/packaging.jpg" alt="">
+            <div class="info">
+                <h1>Packaging</h1>
+                <p></p>
+                
+            </div>
+        </div>
+ 
+        <div class="cards">
+            <img src="img/crema_uno.jpg" alt="">
+            <div class="info">
+                <h1>Cream after sun</h1>
+                <p></p>
+                
+            </div>
+        </div>
+ 
+        <div class="cards">
+            <img src="img/crema_dos.jpg" alt="">
+            <div class="info">
+                <h1>Cream solar</h1>
+                <p></p>
+                
+            </div>
+        </div>
+ 
+        <div class="cards">
+            <img src="img/cartell_expo.jpg" alt="">
+            <div class="info">
+                <h1>Poster</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/estil.png" alt="">
+            <div class="info">
+                <h1>Stylebook</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/tarjeta_artwork.jpg" alt="">
+            <div class="info">
+                <h1>Business card</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/poster_tintin.jpg" alt="">
+            <div class="info">
+                <h1>Poster tintin</h1>
+                <p></p>
+                
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/pegatinas.png" alt="">
+            <div class="info">
+                <h1>Stickers</h1>
+                <p></p>
+        
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="img/señal.jpg" alt="">
+            <div class="info">
+                <h1>Logo</h1>
+                <p></p>
+                
+        </div>
+ 
+    </div>
+    
+    </main>
+
+    <!--Contacto-->
+    <div id="contacte">
+        <h1>Contact</h1>
+        <p>+34 602 314 402</p>
+        <p>sapritkaur610@gmail.com</p>
+        <p>Avinguda de cornellá, 119</p>
+        <p>08950 Esplugues de llobregat</p>
+        <div class="linia"></div>
+    </div>
+
+    <!-- Footer -->
+   <footer>
+        <p>&copy; 2024 Saprit. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
